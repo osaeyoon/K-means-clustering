@@ -1,6 +1,6 @@
 # K-means-clustering
 
-### 1. AWPC 구하기 [001_AWPC.py]
+## 1. AWPC 구하기 [001_AWPC.py]
 
 
 클러스터링할 모든 데이터에 대한 Area-Weighted Pattern Correlation을 구합니다.
@@ -22,7 +22,7 @@
 
 ********
 
-### 2. 적절한 클러스터 수, threshold 값 정하기 [002_1_AWPC_cr.sh]
+## 2. 적절한 클러스터 수, threshold 값 정하기 [002_1_AWPC_cr.sh]
 
 
 K-means clustering을 하기 위해서는 클러스터의 수(M)와 클러스터링을 위한 기준값(AWPC_cr)을 정해야 합니다. 
@@ -67,7 +67,7 @@ K-means clustering을 하기 위해서는 클러스터의 수(M)와 클러스터
 
 ********
 
-### 3. 002_clustering.py
+## 3. 002_clustering.py
 
 
 적절한 클러스터 수(M)와 기준값(AWPC_cr)이 정해졌다면 아래와 같이 002_clustering.py에 AWPC_cr, M 값을 지정합니다.
@@ -108,7 +108,7 @@ OUTPUT 파일에는 각 데이터가 몇번 클러스터에 속해있는지에 �
 
 ********
 
-### 4. 003_composite.py
+## 4. 003_composite.py
 
 
 클러스터링한 각 클러스터의 centroid를 그림으로 나타냅니다.
@@ -119,6 +119,7 @@ OUTPUT 파일에는 각 데이터가 몇번 클러스터에 속해있는지에 �
 
 ********
 
-### 5. 004_timeseries.py
+## 5. 004_timeseries.py
+
 
 클러스터별 연간 발생 빈도를 plot으로 나타냅니다.
