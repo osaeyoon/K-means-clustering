@@ -7,7 +7,7 @@
 
 
 ```
-12  dataset='NCEP' or 'ERA'
+12  dataset='NCEP' or 'ERA5'
 ```
 
 
