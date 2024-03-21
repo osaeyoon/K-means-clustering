@@ -19,7 +19,6 @@
 **AWPC_*dataset*.1958to2020.JJA.nc**의 shape은 (5796,5796)이고, (0,4)에 해당하는 값은 1번째 데이터와 5번째 데이터 간의 pattern correlation 값을 의미합니다. 
 
 
-
 ********
 
 ## 2. 적절한 클러스터 수, threshold 값 정하기 [002_1_AWPC_cr.sh]
