@@ -54,7 +54,7 @@ K-means clustering을 하기 위해서는 클러스터의 수(M)와 클러스터
 ```
 
 위 코드는 002_clustering.py에서 002_1_AWPC_cr.sh가 전달하는 awpc_cr 값을 받는 코드입니다. 
-24line 에서 원하는 클러스터 개수를 지정한 다음 shellscript를 돌리게 되면, 각각 M과 AWPC_cr에 맞게 클러스터링이 진행되고, 그 때의 평균 AWPC 값과 최소 AWPC 값이 화면에 프린트됩니다. 
+24 line 에서 원하는 클러스터 개수를 지정한 다음 shellscript를 돌리게 되면, 각각 M과 AWPC_cr에 맞게 클러스터링이 진행되고, 그 때의 평균 AWPC 값과 최소 AWPC 값이 화면에 프린트됩니다. 
 
 
 * 주의: 이 shell script는 적절한 클러스터 개수와 AWPC_cr 값을 정하기 위해 돌리는 용도이기 때문에, 002_clustering.py에서 맨 아래에 있는 ncfile을 작성하는 코드를 주석 처리한 후 돌려야 합니다.
