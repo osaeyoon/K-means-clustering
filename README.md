@@ -9,13 +9,15 @@ Climatology: daily mean for 1991-2020
 Region: Asia (70°E–160°E, 10°N–70°N)
 
 
-Area-Weighted Pattern Correlation
+### Area-Weighted Pattern Correlation
 
 ![image](https://github.com/osaeyoon/K-means-clustering/assets/54975129/01e58f97-a3eb-4349-83a5-c21cca4c938f)
 
 
 X,Y: 2차원 공간패턴
+
 i,j: 위도, 경도
+
 W_(i,j): area-weight coefficient at (i,j)
 
 ********
