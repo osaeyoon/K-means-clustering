@@ -1,3 +1,18 @@
+# 연구 소개
+
+Data: NCEP, ERA5 reanalysis datasets
+Variable: 500 hPa geopotential height anomalies (daily, JJA, 1958-2020)
+Climatology: daily mean for 1991-2020
+Region: Asia (70°E–160°E, 10°N–70°N)
+
+Area-Weighted Pattern Correlation
+AWPC=(∑_(i=1)^n▒∑_(j=1)^m▒〖W_(i,j) X_(i,j) Y_(i,j) 〗)/((∑_(i=1)^n▒∑_(j=1)^m▒〖W_(i,j) 〖X^2〗_(i,j) 〗)^□(1/2) (∑_(i=1)^n▒∑_(j=1)^m▒〖W_(i,j) 〖Y^2〗_(i,j) 〗)^□(1/2) )
+X,Y: 2차원 공간패턴
+i,j: 위도, 경도
+W_(i,j): area-weight coefficient at (i,j)
+
+********
+
 # K-means-clustering
 
 ## 1. AWPC 구하기 [001_AWPC.py]
