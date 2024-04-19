@@ -1,5 +1,7 @@
 # 연구 소개
 
+### 아시아 지역 여름철 대기 순환 패턴 클러스터링
+
 Data: NCEP, ERA5 reanalysis datasets
 
 Variable: 500 hPa geopotential height anomalies (daily, JJA, 1958-2020)
@@ -19,6 +21,9 @@ X,Y: 2차원 공간패턴
 i,j: 위도, 경도
 
 W_(i,j): area-weight coefficient at (i,j)
+
+
+- target classification accuracy: 0.55 
 
 ********
 
